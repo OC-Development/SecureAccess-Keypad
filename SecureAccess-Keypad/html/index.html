@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Keypad UI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="keypad">
+        <div class="screen" id="screen">
+            <div class="screen-content">
+                <span class="password-input" id="password-input"></span>
+            </div>
+        </div>
+        <div class="buttons">
+            <div class="button">1</div>
+            <div class="button">2</div>
+            <div class="button">3</div>
+            <div class="button">4</div>
+            <div class="button">5</div>
+            <div class="button">6</div>
+            <div class="button">7</div>
+            <div class="button">8</div>
+            <div class="button">9</div>
+            <div class="button">*</div>
+            <div class="button">0</div>
+            <div class="button">#</div>
+        </div>
+        <button class="button-red">C</button>
+        <button class="button-green">OK</button>
+        <button class="button-blue" id="on-off-button">ON</button>
+        <button class="button-yellow">DEL</button>
+    </div>
+    <audio id="error-sound" src="error.mp3" preload="auto"></audio>
+    <script src="script.js"></script>
+</body>
+</html>

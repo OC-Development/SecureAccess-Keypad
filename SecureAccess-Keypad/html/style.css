@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    display: none;
+}
+
+.keypad {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 300px;
+    background: none;
+}
+
+.screen {
+    position: fixed;
+    top: 4%;
+    left: 16%;
+    width: 110px;
+    height: 37px;
+    padding: 10px;
+    background-color: rgba(0, 255, 0, 0.178);
+    color: #0f0;
+    text-shadow: 5px 5px 20px #5ddbad;
+    font-size: 1.2em;
+    text-align: left;
+    line-height: 1.5em;
+    overflow: hidden;
+    opacity: 0.2;
+}
+
+.screen-content {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 33%;
+    left: 0;
+    transform: none;
+    direction: ltr;
+    word-wrap: break-word;
+    opacity: 0.2;
+}
+
+.password-input {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.buttons {
+    position: absolute;
+    top: 41.5%;
+    left: 18.0%;
+    width: 45%;
+    height: 30%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    column-gap: 13px;
+    row-gap: 18.5px;
+}
+
+.button {
+    background: none;
+    color: rgba(240, 248, 255, 0.089);
+    border: 1px solid #00000000;
+    font-size: 0.7em;
+    text-align: center;
+    line-height: 1.3em;
+    cursor: pointer;
+}
+
+.button-red {
+    position: absolute;
+    top: 41%;
+    left: 70%;
+    width: 20px;
+    height: 20px;
+    background-color: rgba(255, 0, 0, 0);
+    color: rgba(78, 78, 78, 0.329);
+    border: none;
+    cursor: pointer;
+}
+
+.button-green {
+    position: absolute;
+    top: 52%;
+    left: 68%;
+    width: 17px;
+    height: 17px;
+    background-color: rgba(255, 0, 0, 0);
+    color: rgba(78, 78, 78, 0.329);
+    border: none;
+    cursor: pointer;
+}
+
+.button-blue {
+    position: absolute;
+    top: 63%;
+    left: 68%;
+    width: 17px;
+    height: 17px;
+    background-color: rgba(255, 0, 0, 0);
+    color: rgba(78, 78, 78, 0.329);
+    border: none;
+    cursor: pointer;
+}
+
+.button-yellow {
+    position: absolute;
+    top: 74%;
+    left: 68%;
+    width: 14px;
+    height: 17px;
+    font-size: 0%;
+    background-color: rgba(255, 0, 0, 0);
+    color: rgba(3, 3, 3, 0.658);
+    border: none;
+    cursor: pointer;
+}
