@@ -1,3 +1,7 @@
+Join Our Community
+For support, updates, and to connect with other users, join our Discord server: OC-Development https://discord.gg/equZQCgM
+
+
 # FiveM Keypad Script
 
 ## Overview
